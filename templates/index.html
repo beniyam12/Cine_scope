@@ -84,7 +84,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Cine Scope</h1>
+        <img src="{{ url_for('static', filename='images/cinescope_logo.png') }}" width="350">
+
         <p>Find your favorite movies instantly!</p>
         
         <form method="GET" action="{{ url_for('movie_browse') }}">
