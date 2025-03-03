@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Flask virtual environment
+venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node modules (if applicable)
+node_modules/
+
+# System Files
+Thumbs.db
+
